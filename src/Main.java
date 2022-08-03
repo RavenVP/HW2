@@ -51,17 +51,20 @@ public class Main {
         double mashaOldSalary = 67760;
         double mashaNewSalary = mashaOldSalary * 1.1;
         double mashaDifSalary = mashaNewSalary - mashaOldSalary;
+        double mashaYear = mashaDifSalary * 12;
 
         double denOldSalary = 83690;
         double denNewSalary = denOldSalary * 1.1;
         double denDifSalary = denNewSalary - denOldSalary;
+        double denYear = denDifSalary * 12;
 
         double krisOldSalary = 76230;
         double krisNewSalary = krisOldSalary * 1.1;
         double krisDifSalary = krisNewSalary - krisOldSalary;
-        System.out.println("Маша теперь получает " + mashaNewSalary +" рублей. Годовой доход вырос на " + mashaDifSalary + " рублей");
-        System.out.println("Денис теперь получает " + denNewSalary +" рублей. Годовой доход вырос на " + denDifSalary + " рублей");
-        System.out.println("Кристина теперь получает " + krisNewSalary +" рублей. Годовой доход вырос на " + krisDifSalary + " рублей");
+        double krisYear = krisDifSalary * 12;
+        System.out.println("Маша теперь получает " + mashaNewSalary +" рублей. Годовой доход вырос на " + mashaYear + " рублей");
+        System.out.println("Денис теперь получает " + denNewSalary +" рублей. Годовой доход вырос на " + denYear + " рублей");
+        System.out.println("Кристина теперь получает " + krisNewSalary +" рублей. Годовой доход вырос на " + krisYear + " рублей");
 
 
 
