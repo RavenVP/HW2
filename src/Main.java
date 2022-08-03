@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
         // Задача 1
-        // byte a = 126;
-        // short b = 32;
-        // int c = 123;
-        // long n = 123L;
-        // float f = 5432.12F;
-        // double rub = 421.42;
+        //  byte a = 126;
+        //  short b = 32;
+        //  int c = 123;
+        //  long n = 123L;
+        //  float f = 5432.12F;
+        //  double rub = 421.42;
 
         // Задача 2
         double boxer1 = 78.2;
